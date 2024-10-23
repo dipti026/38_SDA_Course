@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Bidding System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Online Bidding System</h1>
+  
+  <section id="product-list">
+    <h2>Available Products for Auction</h2>
+    <ul id="products"></ul>
+  </section>
+  
+  <section id="bid-section" style="display: none;">
+    <h2>Place a Bid</h2>
+    <form id="bid-form">
+      <label for="bid-amount">Enter Bid Amount:</label>
+      <input type="number" id="bid-amount" required>
+      <button type="submit">Place Bid</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
